@@ -10,14 +10,12 @@ class Bloc {
   void next() {
     _pageNumber++;
     _pages.add("$_pageNumber");
-    print("$_pageNumber");
   }
 
   void preview() {
     if(_pageNumber-1 >= 0)
     _pageNumber--;
     _pages.add("$_pageNumber");
-    print("$_pageNumber");
   }
 }
 

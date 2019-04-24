@@ -13,7 +13,9 @@ class Background extends StatefulWidget {
 
 class _BackgroundState extends State<Background> {
   final Widget _child;
+
   _BackgroundState(this._child);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,13 +30,15 @@ class _BackgroundState extends State<Background> {
             ),
           ),
           GestureDetector(
-            onTap: (){
+            onTap: () {
               print("next");
-              bloc.next();},
-            onDoubleTap: (){
+              bloc.next();
+            },
+            onDoubleTap: () {
               print("preview");
-              bloc.preview();},
-            child: _child,
+              bloc.preview();
+            },
+            child: Center(child: _child),
           )
         ],
       ),

@@ -1,8 +1,11 @@
 import 'dart:math' show pi;
-
 import 'package:azure_talk_cwb/pages/Page0.dart';
 import 'package:azure_talk_cwb/pages/Page1.dart';
 import 'package:azure_talk_cwb/pages/Page2.dart';
+import 'package:azure_talk_cwb/pages/Page3.dart';
+import 'package:azure_talk_cwb/pages/Page4.dart';
+import 'package:azure_talk_cwb/pages/Page5.dart';
+import 'package:azure_talk_cwb/pages/Page6.dart';
 import 'package:azure_talk_cwb/ui/Background.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -24,7 +27,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           textTheme: TextTheme(
         body1: TextStyle(
-            fontSize: 60.0,
+            fontSize: 70.0,
             color: Colors.white,
             fontWeight: FontWeight.w500,
             shadows: [
@@ -63,13 +66,13 @@ class _HomeState extends State<_Home> {
                   break;
                 case "2": return Page2();
                 break;
-                case "3": return Page2();
+                case "3": return Page3();
                 break;
-                case "4": return Page2();
+                case "4": return Page4();
                 break;
-                case "5": return Page2();
+                case "5": return Page5();
                 break;
-                case "6": return Page2();
+                case "6": return Page6();
                 break;
                 case "7": return Page2();
                 break;
