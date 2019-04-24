@@ -28,8 +28,12 @@ class _BackgroundState extends State<Background> {
             ),
           ),
           GestureDetector(
-            onTap: (){bloc.next();},
-            onDoubleTap: (){bloc.preview();},
+            onTap: (){
+              print("next");
+              bloc.next();},
+            onDoubleTap: (){
+              print("preview");
+              bloc.preview();},
             child: _child,
           )
         ],

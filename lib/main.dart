@@ -1,7 +1,13 @@
+import 'dart:math' show pi;
+
+import 'package:azure_talk_cwb/pages/Page0.dart';
 import 'package:azure_talk_cwb/pages/Page1.dart';
+import 'package:azure_talk_cwb/pages/Page2.dart';
+import 'package:azure_talk_cwb/ui/Background.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'dart:math' show pi;
+
+import 'Bloc.dart';
 
 void main() {
   SystemChrome.setEnabledSystemUIOverlays([]);
@@ -18,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           textTheme: TextTheme(
         body1: TextStyle(
-            fontSize: 80.0,
+            fontSize: 60.0,
             color: Colors.white,
             fontWeight: FontWeight.w500,
             shadows: [
@@ -43,20 +49,39 @@ class _HomeState extends State<_Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: StreamBuilder(
-            initialData: "0",
-            builder: (BuildContext context, AsyncSnapshot snapshot) {
-              if (snapshot.hasData) {
-                switch (snapshot.data) {
-                  case "0":
-                    return Page0();
-                    break;
-                }
-              } else {
-                return Center(
-                  child: CircularProgressIndicator(),
-                );
+        body: Background(
+      child: StreamBuilder(
+          initialData: "0",
+          stream: bloc.page,
+          builder: (BuildContext context, AsyncSnapshot snapshot) {
+            if (snapshot.hasData) {
+              print(snapshot.data);
+              switch (snapshot.data) {
+                case "0":return Page0();
+                  break;
+                case "1": return Page1();
+                  break;
+                case "2": return Page2();
+                break;
+                case "3": return Page2();
+                break;
+                case "4": return Page2();
+                break;
+                case "5": return Page2();
+                break;
+                case "6": return Page2();
+                break;
+                case "7": return Page2();
+                break;
+                case "8": return Page2();
+                break;
+                case "9": return Page2();
+                break;
+                case "10": return Page2();
+                break;
               }
-            }));
+            }
+          }),
+    ));
   }
 }
