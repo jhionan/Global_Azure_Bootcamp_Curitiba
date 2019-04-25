@@ -2,6 +2,16 @@
 
 A slidershow demo for Azure Talk
 
+# References
+
+- [Flutter](https://flutter.dev/)
+- [Dart](https://www.dartlang.org/)
+- [Why FLutter uses dart](https://hackernoon.com/why-flutter-uses-dart-dd635a054ebf)
+- [Dart programming Language Wikipedia](https://en.wikipedia.org/wiki/Dart_(programming_language)
+- [Flutter 10 googles portable ui](https://developers.googleblog.com/2018/12/flutter-10-googles-portable-ui-toolkit.html)
+
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
