@@ -41,7 +41,7 @@ class _MyInfoState extends State<MyInfo> {
                     height: 110,
                   ),
                   SizedBox(
-                    width: 30,
+                    width: 50,
                   ),
                   Text("https://www.linkedin.com/in/jhionan"),
                 ],
@@ -56,7 +56,7 @@ class _MyInfoState extends State<MyInfo> {
                     height: 120,
                   ),
                   SizedBox(
-                    width: 30,
+                    width: 50,
                   ),
                   Text("https://github.com/jhionan"),
                 ],
@@ -69,7 +69,7 @@ class _MyInfoState extends State<MyInfo> {
                     height: 120,
                   ),
                   SizedBox(
-                    width: 30,
+                    width: 50,
                   ),
                   Text("jhionan@gmail.com"),
                 ],
