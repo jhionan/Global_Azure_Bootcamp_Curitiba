@@ -2,6 +2,7 @@ import 'dart:math' show pi;
 
 import 'package:azure_talk_cwb/pages/Page0.dart';
 import 'package:azure_talk_cwb/pages/Page1.dart';
+import 'package:azure_talk_cwb/pages/MyInfo.dart';
 import 'package:azure_talk_cwb/pages/Page2.dart';
 import 'package:azure_talk_cwb/pages/Page3.dart';
 import 'package:azure_talk_cwb/pages/Page4.dart';
@@ -9,6 +10,7 @@ import 'package:azure_talk_cwb/pages/Page5.dart';
 import 'package:azure_talk_cwb/pages/Page6.dart';
 import 'package:azure_talk_cwb/pages/Page7.dart';
 import 'package:azure_talk_cwb/pages/Page8.dart';
+import 'package:azure_talk_cwb/pages/Page9.dart';
 import 'package:azure_talk_cwb/ui/Background.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -81,10 +83,10 @@ class _HomeState extends State<_Home> {
                 break;
                 case "8": return Page8();
                 break;
-                case "9": return Page2();
+                case "9": return Page9();
                 break;
-                case "10": return Page2();
-                break;
+                default : return MyInfo();
+
               }
             }
           }),

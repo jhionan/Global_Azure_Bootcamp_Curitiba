@@ -22,7 +22,7 @@ class _BackgroundState extends State<Background> {
       body: Stack(
         children: <Widget>[
           Opacity(
-            opacity: 0.6,
+            opacity: .7,
             child: Image.asset(
               "assets/bg.jpg",
               fit: BoxFit.cover,
