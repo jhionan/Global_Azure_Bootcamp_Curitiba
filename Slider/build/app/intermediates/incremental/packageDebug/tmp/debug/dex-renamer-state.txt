@@ -1,4 +1,4 @@
-#Sat Apr 27 01:59:42 BRT 2019
-base.0=/Users/rian/Flutter/azure_talk_cwb/Slider/build/app/intermediates/transforms/dexMerger/debug/0
+#Tue Sep 10 21:42:18 BRT 2019
+base.0=/Users/jhionan/Flutter/Global_Azure_Bootcamp_Curitiba/Slider/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

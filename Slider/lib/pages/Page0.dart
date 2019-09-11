@@ -14,17 +14,19 @@ class _Page0State extends State<Page0> {
       mainAxisSize: MainAxisSize.max,
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
-        Spacer(flex: 2,),
+        Spacer(
+          flex: 2,
+        ),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text("Hello World!!  "),
+            Text("Hello "),
             Text(
               "FLUTTER!",
               style: TextStyle(
                   color: Colors.red.shade700,
                   fontWeight: FontWeight.bold,
-                  fontSize: 80,
+                  fontSize: 120,
                   shadows: [
                     Shadow(
                         color: Colors.black87,
@@ -38,15 +40,38 @@ class _Page0State extends State<Page0> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text("utilizando "),
-            Text("Azure", style: TextStyle(color: Colors.blue.shade600),),
-            Text(" em aplicações reais")
+            Text(
+              "Flutter",
+              style: TextStyle(color: Colors.blue.shade600),
+            ),
+            Text(" em "),
           ],
         ),
-        Spacer(flex: 1,),
-        Image.asset("assets/flutter.png", height: 400,),
-        Spacer(flex: 2,)
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text(
+              "apps",
+              style: TextStyle(
+                  decoration: TextDecoration.lineThrough,
+                  //decorationColor: Colors.blue.shade600,
+                  decorationThickness: 2.5),
+            ),
+            Text(" telas"),
+            Text(" reais")
+          ],
+        ),
+        Spacer(
+          flex: 1,
+        ),
+        Image.asset(
+          "assets/flutter.png",
+          height: 400,
+        ),
+        Spacer(
+          flex: 2,
+        )
       ],
     );
   }
 }
-

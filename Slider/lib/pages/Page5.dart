@@ -14,7 +14,7 @@ class _Page5State extends State<Page5> {
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Expanded(
-            flex: 2,
+            flex: 3,
             child: Padding(
               padding: const EdgeInsets.all(100.0),
               child: Text(

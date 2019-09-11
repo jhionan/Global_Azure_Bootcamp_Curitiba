@@ -27,7 +27,7 @@ class _Page6State extends State<Page6> {
         ),
         Padding(
           padding: const EdgeInsets.all(16.0),
-          child: Text("Quais IDEs posso usar"),
+          child: Text("Quais IDEs posso usar?"),
         ),
       ],
     );

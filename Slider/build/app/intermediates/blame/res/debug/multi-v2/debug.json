@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/rian/Flutter/azure_talk_cwb/Slider/build/app/intermediates/res/merged/debug/values_values.arsc.flat",
+            "outputFile": "/Users/jhionan/Flutter/Global_Azure_Bootcamp_Curitiba/Slider/build/app/intermediates/res/merged/debug/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/rian/Flutter/azure_talk_cwb/Slider/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/jhionan/Flutter/Global_Azure_Bootcamp_Curitiba/Slider/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

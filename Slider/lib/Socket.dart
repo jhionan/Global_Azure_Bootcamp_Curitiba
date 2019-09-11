@@ -12,7 +12,7 @@ class SocketClient {
 
   Future createSocket() async {
     socket = await SocketIOManager().createInstance(
-        'http://192.168.1.2:7000/'); //TODO change the port  accordingly
+        SocketOptions('http://192.168.1.2:7000/')); //TODO change the port  accordingly
     socket.onConnect((data) {
       print("connected...");
       print(data);

@@ -6,6 +6,7 @@ class Page1 extends StatefulWidget {
 }
 
 class _Page1State extends State<Page1> {
+  final double fontSize = 120;
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -17,15 +18,15 @@ class _Page1State extends State<Page1> {
           children: <Widget>[
             Text(
               "Come to the ",
-              style: TextStyle(fontSize: 150),
+              style: TextStyle(fontSize: fontSize),
             ),
             Text(
               "Dart ",
-              style: TextStyle(fontSize: 150, color: Colors.red.shade700),
+              style: TextStyle(fontSize: fontSize, color: Colors.red.shade700),
             ),
             Text(
               "side",
-              style: TextStyle(fontSize: 150),
+              style: TextStyle(fontSize: fontSize),
             ),
           ],
         ),
